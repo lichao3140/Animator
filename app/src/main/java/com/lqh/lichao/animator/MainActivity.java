@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
         //6.---------插值器（加速器）Interpolator-----------
         ObjectAnimator oa = ObjectAnimator.ofFloat(iv, "translationY", 0f,1000f);
-        oa.setDuration(800);
+        oa.setDuration(800);//执行时间
         //oa.setInterpolator(new AccelerateInterpolator(1));
         //oa.setInterpolator(new AccelerateDecelerateInterpolator());
         //oa.setInterpolator(new BounceInterpolator());
